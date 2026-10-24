@@ -46,3 +46,6 @@ body[data-theme="knot"]{--black:#111110;--paper:#a53222;--ink:#f2f2c0;--muted:#f
 @media(prefers-reduced-motion:reduce){.content-page.active .about-text,.content-page.active .projects-content,.content-page.active .experience-content,.content-page.active .contact-content{animation:none!important}}
 .content-page .portrait-photo{transform:scaleX(-1)}
 .contact-social{flex-wrap:wrap}
+
+.certificate-gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}.certificate-gallery .gallery-tile{height:132px}.certificate-gallery .gallery-tile img{object-fit:contain;background:#f5f5f5}.certificate-gallery .gallery-tile>span{font-size:7px}.certificate-gallery .gallery-tile>span b{font-size:6px}
+@media(max-width:700px){.certificate-gallery{gap:5px;margin:9px 0}.certificate-gallery .gallery-tile{height:100px}.certificate-gallery .gallery-tile>span{font-size:6px;padding:5px}.certificate-gallery .gallery-tile>span b{font-size:5px}}
