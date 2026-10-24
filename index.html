@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="Christian Jay D. Abragan — software developer portfolio.">
+  <title>Christian Jay Abragan — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Caveat:wght@600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=7">
+</head>
+<body>
+  <main class="site">
+    <div class="palette-control" id="palette-control">
+      <button class="palette-trigger" id="palette-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="palette-menu"><span class="palette-trigger-dot" aria-hidden="true"></span>COLOR MODE <span class="palette-caret" aria-hidden="true">+</span></button>
+      <div class="palette-menu" id="palette-menu" role="group" aria-label="Choose a color palette" hidden>
+        <button class="palette-option" type="button" data-theme-choice="default" aria-pressed="true"><span class="palette-swatches default-swatches" aria-hidden="true"><i></i><i></i><i></i></span><span>GRAPHITE</span><small>DEFAULT</small></button>
+        <button class="palette-option" type="button" data-theme-choice="knot" aria-pressed="false"><span class="palette-swatches knot-swatches" aria-hidden="true"><i></i><i></i><i></i></span><span>KNOT</span><small>RED / CREAM</small></button>
+      </div>
+    </div>
+    <section class="landing-screen" id="landing" aria-label="Portfolio landing page">
+      <div class="landing-card" id="enter-portfolio" role="button" tabindex="0" aria-label="Click to enter Christian Jay Abragan's portfolio">
+        <div class="landing-name"><strong>ABRAGAN</strong><span>CHRISTIAN JAY</span></div>
+        <div class="landing-prompt"><span id="landing-phrase">MY PORTFOLIO</span><span class="tap-hand" aria-hidden="true">☞</span></div>
+        <span class="landing-corner">CLICK ANYWHERE TO ENTER <b>↗</b></span>
+      </div>
+    </section>
+
+    <section class="portfolio-screen" id="portfolio" hidden>
+      <div class="page-card">
+        <nav class="page-nav" aria-label="Portfolio pages">
+          <button class="page-nav-button active" type="button" data-page="about" aria-label="About me" title="About me"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.2 3.3-7 8-7s8 2.8 8 7z"/></svg></button>
+          <button class="page-nav-button" type="button" data-page="projects" aria-label="Projects" title="Projects"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 8h8M8 12h8M8 16h5M6 8v0M6 12v0M6 16v0" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+          <button class="page-nav-button" type="button" data-page="experience" aria-label="Experience" title="Experience"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+          <button class="page-nav-button" type="button" data-page="contact" aria-label="Contact me" title="Contact me"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        </nav>
+
+        <div class="page-content">
+          <article class="content-page about-page active" data-view="about">
+            <div class="cutout" aria-hidden="true"><img class="portrait-photo" src="portrait-trim.png" alt=""><div class="figure"><i class="figure-hair"></i><i class="figure-head"></i><i class="figure-neck"></i><i class="figure-glasses"></i><i class="figure-shirt"></i><i class="figure-coat figure-coat-left"></i><i class="figure-coat figure-coat-right"></i><i class="figure-arm"></i><i class="figure-cup"></i></div></div>
+            <div class="about-text"><span class="micro-label">01 / ABOUT</span><h1>ABOUT ME</h1><p>HI, I’M CHRISTIAN JAY D. ABRAGAN, 23 YEARS OLD, A SOFTWARE DEVELOPER AND IT GRADUATE FROM THE UNIVERSITY OF SCIENCE AND TECHNOLOGY OF SOUTHERN PHILIPPINES.</p><p>I HAVE EXPERIENCE IN FULL-STACK DEVELOPMENT, CREATIVE PROBLEM-SOLVING, AND BUILDING USEFUL DIGITAL PRODUCTS.</p><p>I’M A TWO-TIME DEAN’S LIST AWARDEE WHO CARES ABOUT CLEAN CODE, THOUGHTFUL UI/UX, AND TECHNOLOGY THAT MAKES WORK EASIER.</p><a class="small-link" href="Christian-Jay-Abragan-CV.pdf" target="_blank" rel="noreferrer">VIEW MY CV ↗</a></div>
+          </article>
+
+          <article class="content-page projects-page" data-view="projects" hidden>
+            <div class="cutout" aria-hidden="true"><img class="portrait-photo" src="portrait-trim.png" alt=""><div class="figure"><i class="figure-hair"></i><i class="figure-head"></i><i class="figure-neck"></i><i class="figure-glasses"></i><i class="figure-shirt"></i><i class="figure-coat figure-coat-left"></i><i class="figure-coat figure-coat-right"></i><i class="figure-arm"></i><i class="figure-cup"></i></div></div>
+            <div class="projects-content">
+              <span class="micro-label">02 / SELECTED WORK</span><h1>PROJECTS</h1>
+              <p class="section-intro">THESIS AND PERSONAL PROJECTS · SELECT ONE TO EXPLORE</p>
+              <div class="project-tabs" role="tablist" aria-label="Select a project">
+                <button class="project-tab selected" id="tab-trackseat" role="tab" aria-selected="true" aria-controls="detail-trackseat" data-project="trackseat"><i></i><span>TRACKSEAT</span><small>01</small></button>
+                <button class="project-tab" id="tab-cryptai" role="tab" aria-selected="false" aria-controls="detail-cryptai" data-project="cryptai" tabindex="-1"><i></i><span>CRYPTAI</span><small>02</small></button>
+                <button class="project-tab" id="tab-dreamdwell" role="tab" aria-selected="false" aria-controls="detail-dreamdwell" data-project="dreamdwell" tabindex="-1"><i></i><span>DREAMDWELL</span><small>03</small></button>
+              </div>
+              <div class="project-details">
+                <section class="project-detail selected" id="detail-trackseat" role="tabpanel" aria-labelledby="tab-trackseat" data-project-detail="trackseat"><div class="detail-topline"><span>THESIS PROJECT · FLEET ADMIN DASHBOARD</span><span>LIVE MONITORING</span></div><h2>See the fleet.<br>Manage the operation.</h2><p>Trackseat pairs live route monitoring with practical transit operations. Its Cagayan de Oro map shows unit location and status, while the admin tools organize staff, buses and activity records.</p><div class="project-gallery" aria-label="Trackseat screenshots"><button class="gallery-tile featured" type="button" data-full-image="assets/trackseat-dashboard.png" data-image-alt="Trackseat admin dashboard with live bus location map"><img src="assets/trackseat-dashboard.png" alt="Trackseat live fleet dashboard"><span>01 / LIVE FLEET DASHBOARD <b>↗ EXPAND</b></span></button><div class="gallery-thumbnails"><button class="gallery-tile" type="button" data-full-image="assets/trackseat-drivers.png" data-image-alt="Trackseat driver management and system activity logs"><img src="assets/trackseat-drivers.png" alt="Trackseat driver management screen"><span>DRIVERS</span></button><button class="gallery-tile" type="button" data-full-image="assets/trackseat-conductors.png" data-image-alt="Trackseat conductor management and system activity logs"><img src="assets/trackseat-conductors.png" alt="Trackseat conductor management screen"><span>CONDUCTORS</span></button></div></div><div class="detail-features"><span>LIVE MAP, BUS STATUS & PASSENGER COUNT</span><span>DRIVER AND CONDUCTOR DUTY MANAGEMENT</span><span>BUS OPERATIONS, TIMELINE LOGS & REPORTS</span><span>REAL-TIME DATA SYNC WITH FIREBASE</span></div><div class="detail-tech"><span>REACT NATIVE</span><span>EXPO</span><span>GOOGLE MAPS</span><span>FIREBASE</span></div><div class="detail-actions"><a href="https://trackseat-bd7c5.web.app/dashboard" target="_blank" rel="noreferrer" class="project-action primary-action">OPEN TRACKSEAT DASHBOARD <b>↗</b></a><a href="https://github.com/ChristianAbragan/Trackseat" target="_blank" rel="noreferrer" class="project-action">VIEW SOURCE <b>↗</b></a></div></section>
+                <section class="project-detail" id="detail-cryptai" role="tabpanel" aria-labelledby="tab-cryptai" data-project-detail="cryptai" hidden><div class="detail-topline"><span>PERSONAL PROJECT · IN DEVELOPMENT</span><span>AI / SEARCH</span></div><h2>Find the meaning<br>inside your files.</h2><p>AI-powered document storage that automatically categorizes files, creates readable summaries, and finds relevant information from natural-language prompts.</p><div class="detail-features"><span>AUTOMATIC CATEGORIZATION</span><span>DOCUMENT SUMMARIES</span><span>SEMANTIC SEARCH</span></div><div class="detail-tech"><span>GENERATIVE AI</span><span>DOCUMENT PROCESSING</span><span>NATURAL LANGUAGE</span></div><figure class="mockup-visual"><img src="assets/cryptai-preview.svg" alt="Illustrative CryptAI document library with natural-language search and AI summary"><figcaption>ILLUSTRATIVE PRODUCT PREVIEW · IN DEVELOPMENT</figcaption></figure><div class="detail-actions"><a href="https://github.com/ChristianAbragan" target="_blank" rel="noreferrer" class="project-action">MORE ON GITHUB <b>↗</b></a></div></section>
+                <section class="project-detail" id="detail-dreamdwell" role="tabpanel" aria-labelledby="tab-dreamdwell" data-project-detail="dreamdwell" hidden><div class="detail-topline"><span>FULL-STACK PERSONAL PROJECT · ACTIVE DEVELOPMENT</span><span>AI INTERIOR DESIGN</span></div><h2>Design a room<br>from a room scan.</h2><p>DreamDwell is an AI interior-design system. Upload or capture a room photo, inspect the room, then get design suggestions placed over the image.</p><div class="project-gallery dreamdwell-gallery" aria-label="DreamDwell screenshots"><button class="gallery-tile featured" type="button" data-full-image="assets/dreamdwell-analyze.png" data-image-alt="DreamDwell room analysis screen with a room photo and Archi AI design assistant"><img src="assets/dreamdwell-analyze.png" alt="DreamDwell analyze screen and Archi assistant"><span>01 / ROOM ANALYSIS + ARCHI <b>↗ EXPAND</b></span></button><div class="gallery-thumbnails"><button class="gallery-tile" type="button" data-full-image="assets/dreamdwell-inspiration.png" data-image-alt="DreamDwell inspiration design board with searchable room and furniture ideas"><img src="assets/dreamdwell-inspiration.png" alt="DreamDwell inspiration design board"><span>INSPIRATION</span></button><button class="gallery-tile" type="button" data-full-image="assets/dreamdwell-profile.png" data-image-alt="DreamDwell user profile showing room scans, saved ideas, and design preferences"><img src="assets/dreamdwell-profile.png" alt="DreamDwell profile and design preferences"><span>PROFILE</span></button></div></div><div class="detail-features"><span>COMPUTER-VISION ROOM ANALYSIS</span><span>VISUAL FURNITURE SUGGESTIONS</span><span>ARCHI AI CHAT TO REFINE IDEAS</span><span>PRICE ESTIMATES, STORE SEARCH & MAP ROUTES</span><span>SAVED SCANS & SEARCHABLE INSPIRATION BOARD</span></div><div class="detail-tech"><span>REACT</span><span>FIREBASE</span><span>EXPRESS</span><span>PRISMA</span><span>COMPUTER VISION</span><span>AI</span></div><div class="detail-actions"><a href="https://github.com/ChristianAbragan/Dreamdwell" target="_blank" rel="noreferrer" class="project-action primary-action">EXPLORE DREAMDWELL SOURCE <b>↗</b></a></div></section>
+              </div>
+            </div>
+          </article>
+
+          <article class="content-page experience-page" data-view="experience" hidden>
+            <div class="cutout" aria-hidden="true"><img class="portrait-photo" src="portrait-trim.png" alt=""><div class="figure"><i class="figure-hair"></i><i class="figure-head"></i><i class="figure-neck"></i><i class="figure-glasses"></i><i class="figure-shirt"></i><i class="figure-coat figure-coat-left"></i><i class="figure-coat figure-coat-right"></i><i class="figure-arm"></i><i class="figure-cup"></i></div></div>
+            <div class="experience-content">
+              <span class="micro-label">03 / EXPERIENCE</span><h1>EXPERIENCE</h1>
+              <div class="experience-tabs" role="tablist" aria-label="Experience details"><button class="experience-tab selected" id="tab-experience-work" role="tab" aria-selected="true" aria-controls="experience-work" data-experience="work">WORK</button><button class="experience-tab" id="tab-experience-education" role="tab" aria-selected="false" aria-controls="experience-education" data-experience="education" tabindex="-1">EDUCATION</button><button class="experience-tab" id="tab-experience-certifications" role="tab" aria-selected="false" aria-controls="experience-certifications" data-experience="certifications" tabindex="-1">CERTIFICATIONS</button></div>
+              <div class="experience-panels">
+                <section class="experience-panel selected" id="experience-work" role="tabpanel" aria-labelledby="tab-experience-work" data-experience-panel="work"><div class="experience-date">FEBRUARY — MAY 2026 <span>· 486 PRACTICUM HOURS</span></div><h2>Fullstack Developer Intern</h2><h3>meldCX Corp</h3><ul><li>Fixed UI and component issues identified during QA.</li><li>Refactored React/TypeScript API routing and component logic for reliable data flow.</li><li>Designed and deployed an internal GenAI project to improve workflow efficiency.</li></ul><div class="experience-tags"><span>REACT</span><span>TYPESCRIPT</span><span>GENAI</span><span>QA</span></div></section>
+                <section class="experience-panel" id="experience-education" role="tabpanel" aria-labelledby="tab-experience-education" data-experience-panel="education" hidden><div class="experience-date">2021 — 2026 <span>· BACHELOR’S DEGREE</span></div><h2>B.S. Information Technology</h2><h3>University of Science and Technology of Southern Philippines</h3><p class="education-note">Two-time Dean’s List awardee, AY 2021–2022.<br>GPA: 1.667 and 1.750.</p><div class="experience-highlight">IT Organization · Working Committee Member & Academic Project Team Lead, 2021–Present. Recognized for dedicated service and technical contributions.</div></section>
+                <section class="experience-panel" id="experience-certifications" role="tabpanel" aria-labelledby="tab-experience-certifications" data-experience-panel="certifications" hidden><div class="experience-date">CERTIFICATIONS & TRAINING</div><h2>Continually learning.</h2><div class="credential"><strong>CCNA: Enterprise Networking, Security, and Automation</strong><span>Cisco Networking Academy · August 2024</span></div><div class="credential"><strong>Introductory & Marketing / Virtual Assistance</strong><span>Virtual Success Academy · October 2021</span></div></section>
+              </div>
+              <a class="small-link experience-cv" href="Christian-Jay-Abragan-CV.pdf" target="_blank" rel="noreferrer">VIEW FULL CV ↗</a>
+            </div>
+          </article>
+
+          <article class="content-page contact-page" data-view="contact" hidden>
+            <div class="cutout" aria-hidden="true"><img class="portrait-photo" src="portrait-trim.png" alt=""><div class="figure"><i class="figure-hair"></i><i class="figure-head"></i><i class="figure-neck"></i><i class="figure-glasses"></i><i class="figure-shirt"></i><i class="figure-coat figure-coat-left"></i><i class="figure-coat figure-coat-right"></i><i class="figure-arm"></i><i class="figure-cup"></i></div></div>
+            <div class="contact-content"><span class="micro-label">04 / GET IN TOUCH</span><h1>CONTACT ME</h1><p class="contact-lead">Have a role, project, or idea in mind? I’d be glad to hear from you.</p><div class="contact-methods"><a class="contact-input" href="mailto:abragan.christianjay@gmail.com"><span class="contact-method-label">EMAIL</span><strong>abragan.christianjay@gmail.com</strong><span class="contact-arrow">↗</span></a><a class="contact-input" href="tel:+639674571203"><span class="contact-method-label">PHONE</span><strong>+63 967 457 1203</strong><span class="contact-arrow">↗</span></a></div><div class="contact-actions"><button class="copy-email" id="copy-email" type="button" data-email="abragan.christianjay@gmail.com">COPY EMAIL</button><a class="cv-input" href="Christian-Jay-Abragan-CV.pdf" target="_blank" rel="noreferrer">VIEW / DOWNLOAD MY CV <span>↗</span></a></div><div class="contact-social"><a href="https://www.linkedin.com/in/christian-abragan/" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a><a href="https://github.com/ChristianAbragan" target="_blank" rel="noreferrer">GITHUB <span>↗</span></a><a href="https://profile.indeed.com/?hl=en_PH&amp;co=PH&amp;from=gnav-homepage" target="_blank" rel="noreferrer">INDEED <span>↗</span></a></div><span class="copy-status" id="copy-status" role="status" aria-live="polite"></span></div>
+          </article>
+        </div>
+        <button class="back-home" id="back-home" type="button" aria-label="Back to landing page">CJA <span>↖</span></button>
+      </div>
+      <footer class="page-footer"><span>CHRISTIAN JAY D. ABRAGAN</span><span>CAGAYAN DE ORO · PHILIPPINES</span></footer>
+    </section>
+  </main>
+  <dialog class="visual-lightbox" id="visual-lightbox" aria-label="Project screenshot"><button class="lightbox-close" type="button" aria-label="Close screenshot">×</button><img id="lightbox-image" alt=""><p id="lightbox-caption"></p></dialog>
+  <script src="script.js?v=2"></script>
+</body>
+</html>

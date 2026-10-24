@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">CryptAI concept preview</title><desc id="desc">Illustrative document vault with automatic categories, an AI summary, and semantic search.</desc>
+  <rect width="1200" height="720" fill="#e8e7e2"/>
+  <rect x="24" y="24" width="1152" height="672" rx="24" fill="#f8f8f5" stroke="#d7d7d1"/>
+  <rect x="24" y="24" width="218" height="672" rx="24" fill="#20211f"/>
+  <path d="M218 24h24v672h-24z" fill="#20211f"/>
+  <text x="54" y="74" fill="#f5f4ec" font-family="Arial,sans-serif" font-size="24" font-weight="700">CRYPTAI</text>
+  <text x="55" y="101" fill="#aaa99f" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">YOUR KNOWLEDGE VAULT</text>
+  <rect x="48" y="137" width="168" height="42" rx="12" fill="#d6ef76"/><text x="68" y="164" fill="#1c1d18" font-family="Arial,sans-serif" font-size="14" font-weight="700">⌂  My library</text>
+  <text x="58" y="220" fill="#85857d" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.5">COLLECTIONS</text>
+  <text x="66" y="259" fill="#deddd6" font-family="Arial,sans-serif" font-size="14">▤  Research</text>
+  <text x="66" y="296" fill="#deddd6" font-family="Arial,sans-serif" font-size="14">▤  Work</text>
+  <text x="66" y="333" fill="#deddd6" font-family="Arial,sans-serif" font-size="14">▤  Reading list</text>
+  <rect x="267" y="48" width="872" height="48" rx="13" fill="#edede8" stroke="#e0e0d9"/>
+  <text x="292" y="78" fill="#77776f" font-family="Arial,sans-serif" font-size="14">⌕  Ask your files anything…</text>
+  <text x="1075" y="78" fill="#6a6a61" font-family="Arial,sans-serif" font-size="12">SEARCH ↗</text>
+  <text x="270" y="145" fill="#20211f" font-family="Arial,sans-serif" font-size="30" font-weight="700">Your documents, understood.</text>
+  <text x="270" y="174" fill="#77776f" font-family="Arial,sans-serif" font-size="14">Organized automatically. Ready to search in plain language.</text>
+  <rect x="270" y="202" width="552" height="155" rx="17" fill="#242522"/>
+  <text x="296" y="239" fill="#d6ef76" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.4">TRY A NATURAL-LANGUAGE SEARCH</text>
+  <text x="296" y="280" fill="#f4f3ec" font-family="Arial,sans-serif" font-size="21">“What did I save about user research?”</text>
+  <text x="296" y="320" fill="#aaa99f" font-family="Arial,sans-serif" font-size="12">Search across file contents, not just filenames.</text>
+  <text x="270" y="403" fill="#252520" font-family="Arial,sans-serif" font-size="18" font-weight="700">Recently added</text>
+  <text x="732" y="403" fill="#77776f" font-family="Arial,sans-serif" font-size="11">AUTO-CATEGORIZED</text>
+  <rect x="270" y="421" width="266" height="118" rx="14" fill="#efeee9" stroke="#deddd6"/><rect x="288" y="440" width="42" height="52" rx="7" fill="#ded8ce"/><text x="299" y="472" fill="#706c62" font-family="Arial,sans-serif" font-size="13" font-weight="700">PDF</text><text x="345" y="454" fill="#252520" font-family="Arial,sans-serif" font-size="13" font-weight="700">Research notes</text><text x="345" y="477" fill="#77776f" font-family="Arial,sans-serif" font-size="11">8 pages · Research</text><rect x="345" y="492" width="93" height="20" rx="10" fill="#dce8bd"/><text x="357" y="506" fill="#4d5a31" font-family="Arial,sans-serif" font-size="9">SUMMARY READY</text>
+  <rect x="548" y="421" width="266" height="118" rx="14" fill="#efeee9" stroke="#deddd6"/><rect x="566" y="440" width="42" height="52" rx="7" fill="#d5dce3"/><text x="579" y="472" fill="#606c7a" font-family="Arial,sans-serif" font-size="12" font-weight="700">DOC</text><text x="623" y="454" fill="#252520" font-family="Arial,sans-serif" font-size="13" font-weight="700">Project brief</text><text x="623" y="477" fill="#77776f" font-family="Arial,sans-serif" font-size="11">12 pages · Work</text><rect x="623" y="492" width="93" height="20" rx="10" fill="#dce8bd"/><text x="635" y="506" fill="#4d5a31" font-family="Arial,sans-serif" font-size="9">SUMMARY READY</text>
+  <rect x="270" y="555" width="266" height="118" rx="14" fill="#efeee9" stroke="#deddd6"/><rect x="288" y="574" width="42" height="52" rx="7" fill="#e5d7da"/><text x="301" y="606" fill="#85656d" font-family="Arial,sans-serif" font-size="12" font-weight="700">PDF</text><text x="345" y="588" fill="#252520" font-family="Arial,sans-serif" font-size="13" font-weight="700">Design systems</text><text x="345" y="611" fill="#77776f" font-family="Arial,sans-serif" font-size="11">23 pages · Reading list</text>
+  <rect x="548" y="555" width="266" height="118" rx="14" fill="#efeee9" stroke="#deddd6"/><rect x="566" y="574" width="42" height="52" rx="7" fill="#d9dfd1"/><text x="579" y="606" fill="#65745d" font-family="Arial,sans-serif" font-size="12" font-weight="700">TXT</text><text x="623" y="588" fill="#252520" font-family="Arial,sans-serif" font-size="13" font-weight="700">Meeting notes</text><text x="623" y="611" fill="#77776f" font-family="Arial,sans-serif" font-size="11">4 pages · Work</text>
+  <rect x="840" y="202" width="299" height="471" rx="17" fill="#efeee9" stroke="#deddd6"/>
+  <text x="864" y="239" fill="#716b8f" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.2">✳ AI DOCUMENT SUMMARY</text>
+  <text x="864" y="280" fill="#252520" font-family="Arial,sans-serif" font-size="18" font-weight="700">Research notes</text>
+  <text x="864" y="316" fill="#55554f" font-family="Arial,sans-serif" font-size="12"><tspan x="864" dy="0">A concise overview of the document’s</tspan><tspan x="864" dy="20">main ideas, decisions, and follow-ups.</tspan><tspan x="864" dy="34">• Key themes and findings</tspan><tspan x="864" dy="23">• Important names and dates</tspan><tspan x="864" dy="23">• Suggested next steps</tspan></text>
+  <rect x="864" y="491" width="251" height="1" fill="#d0cfc7"/>
+  <text x="864" y="523" fill="#77776f" font-family="Arial,sans-serif" font-size="10" letter-spacing="1">RELATED CONTENT</text>
+  <rect x="864" y="542" width="251" height="43" rx="10" fill="#f9f9f6"/><text x="879" y="568" fill="#393933" font-family="Arial,sans-serif" font-size="11">Interview synthesis · 6 pages</text>
+  <rect x="864" y="595" width="251" height="43" rx="10" fill="#f9f9f6"/><text x="879" y="621" fill="#393933" font-family="Arial,sans-serif" font-size="11">UX planning · 9 pages</text>
+</svg>
