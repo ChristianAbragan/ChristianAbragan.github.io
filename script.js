@@ -98,7 +98,10 @@ copyButton.addEventListener('click', async () => {
 document.querySelectorAll('.portrait-photo').forEach(image => {
   const usePhoto = () => image.closest('.cutout').classList.add('has-photo');
   image.addEventListener('load', usePhoto);
-  image.addEventListener('error', () => image.remove());
+  image.addEventListener('error', () => {
+    image.closest('.cutout').classList.add('show-fallback');
+    image.remove();
+  });
   if (image.complete && image.naturalWidth > 0) usePhoto();
 });
 const phrases = ['MY PORTFOLIO', 'CLICK ME'];
